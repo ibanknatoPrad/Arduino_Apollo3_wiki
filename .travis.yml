@@ -8,6 +8,9 @@ script:
   git fetch origin
   echo "hello"
   echo $GITHUB_API_KEY
+  echo ${GITHUB_API_KEY}
+  echo "$GITHUB_API_KEY"
+  echo "${GITHUB_API_KEY}"
   # git fetch upstream
   # git merge upstream/master --no-edit
   # git push origin HEAD:master > /dev/null 2>&1
