@@ -6,6 +6,8 @@ script:
   git remote add origin https://$GITHUB_API_KEY@github.com/sparkfun/Arduino_Apollo3-wiki.git > /dev/null 2>&1
   git remote add upstream https://$GITHUB_API_KEY@github.com/sparkfun/Arduino_Apollo3.wiki.git > /dev/null 2>&1
   git fetch origin
+  echo "hello"
+  echo $GITHUB_API_KEY
   # git fetch upstream
   # git merge upstream/master --no-edit
   # git push origin HEAD:master > /dev/null 2>&1
