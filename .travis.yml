@@ -12,9 +12,9 @@ script:
 - echo "${GITHUB_API_KEY}"
 - echo "its us"
 - git fetch upstream
-  # git merge upstream/master --no-edit
-  # git push origin HEAD:master > /dev/null 2>&1
-  # git push upstream HEAD:master > /dev/null 2>&1
+- git merge upstream/master --no-edit
+- git push origin HEAD:master > /dev/null 2>&1
+- git push upstream HEAD:master > /dev/null 2>&1
 
 
 # script:
