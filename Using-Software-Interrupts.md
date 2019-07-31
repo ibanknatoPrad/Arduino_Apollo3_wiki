@@ -17,6 +17,7 @@ The Apollo3 microcontroller's interrupts are mapped through the NVIC (Nested Vec
 | I2C/SPI Slave Register Address | 5 | am_ioslave_acc_isr |
 | I2C/SPI Master 0 | 6 | am_iomaster0_isr |
 | I2C/SPI Master 1 | 7 | am_iomaster1_isr |
+| I2C/SPI Master 2 | 8 | am_iomaster2_isr |
 | I2C/SPI Master 3 | 9 | am_iomaster3_isr |
 | I2C/SPI Master 4 | 10 | am_iomaster4_isr |
 | I2C/SPI Master 5 | 11 | am_iomaster5_isr |
